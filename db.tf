@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "matbucket" {
+resource "aws_s3_bucket" "matrebucket" {
   bucket = "matrejeur-test-bucket"
   acl    = "public-read"
   }
